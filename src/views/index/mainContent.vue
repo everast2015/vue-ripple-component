@@ -4,7 +4,6 @@
     <el-radio v-model="radio" label="2">效果二</el-radio>
     <el-radio v-model="radio" label="3">效果三</el-radio>
     <el-radio v-model="radio" label="4">效果四</el-radio>
-    <el-radio v-model="radio" label="5">效果五</el-radio>
     <left-menu></left-menu>
     <!-- 方法一、平移切换的效果 -->
     <transition name="transitionRouter" mode="out-in" v-if="radio == 1">
@@ -27,11 +26,6 @@
     <transition name="slide-left" v-if="radio == 4">
       <router-view class="child-view"></router-view>
     </transition>
-
-    <!-- 方法五 -->
-    <transition name="fade-transform" mode="out-in" v-if="radio == 5">
-      <router-view></router-view>
-    </transition>
   </div>
 </template>
 
@@ -44,8 +38,8 @@ export default {
   },
   data() {
     return {
-      radio: "1"
-    };
+      radio: '1'
+    }
   }
 };
 </script>
@@ -97,21 +91,5 @@ export default {
   opacity: 0;
   -webkit-transform: translate(50%, 0);
   transform: translate(50%, 0);
-}
-
-/*fade-transform*/
-.fade-transform-leave-active,
-.fade-transform-enter-active {
-  transition: all 0.5s linear;
-}
-
-.fade-transform-enter {
-  opacity: 0;
-  transform: translateX(-30px);
-}
-
-.fade-transform-leave-to {
-  opacity: 0;
-  transform: translateX(30px);
 }
 </style>

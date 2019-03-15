@@ -24,6 +24,9 @@ npm run test
 ```
 npm run lint
 ```
+### 安装的插件 --save
+> vue2-animate 是做动画的一个插件
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. npm install element-ui --save
+2. npm install vue2-animate --save 
+
