@@ -1,26 +1,24 @@
-# traveladmin
+# 下载的地址
+```
+https://github.com/yjn2015/vue-ripple-component.git
+```
 
-## Project setup
+## 安装相应的依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 跑起来
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 生产环境使用
 ```
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
+### 校验
 ```
 npm run lint
 ```
@@ -29,4 +27,8 @@ npm run lint
 
 1. npm install element-ui --save
 2. npm install vue2-animate --save 
+
+### 最终的效果：
+
+
 
