@@ -30,5 +30,7 @@ npm run lint
 
 ### 最终的效果：
 
+["点我查看效果"](https://yjn2015.github.io/vue-ripple-component/dist/#/first)
+
 
 
